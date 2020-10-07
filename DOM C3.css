@@ -1,0 +1,95 @@
+body {
+    background-color: silver;
+}
+
+.header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+form[name=calculator] {
+    position: relative;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 15px 20px 15px;
+    background-color: rgba(247, 166, 17, 0.74);
+}
+
+  input[type=button]:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(1px);
+  }
+
+  input[class=number]:hover {
+    background-color: rgb(255, 153, 0);
+  }
+
+  input[class=zero]:hover {
+    background-color: rgb(255, 153, 0);
+  }
+
+  input[class=operator]:hover {
+    background-color: rgb(194, 192, 192);
+  }
+
+  input[class=clear]:hover {
+    background-color: rgba(231, 17, 17, 0.993);
+  }
+  
+  input[type = text] {
+    position: inherit;
+    display: block;
+    height: 50px;
+    width: 85%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 1px 0px 6px black inset;
+  }
+
+.operator {
+    background-color: lightgrey;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 30;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.number {
+    background-color: orange;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 30;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.clear {
+    background-color: rgba(255, 0, 0);
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 30;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+    
+}
+
+.zero {
+    background-color: orange;
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 30;
+    border-radius: 7px;
+    margin-left: 13px;
+    margin-top: 10px;
+}
